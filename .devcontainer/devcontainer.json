@@ -1,0 +1,4 @@
+{
+  // ...outros campos...
+  "postCreateCommand": "npm install -g @angular/cli@15"
+}
