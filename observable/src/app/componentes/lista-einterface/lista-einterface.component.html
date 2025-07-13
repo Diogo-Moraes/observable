@@ -1,0 +1,16 @@
+<p>esta é a lista de animais</p>
+
+<!-- <button (click)="mostraAnimais()">Mostre os animais!!</button> -->
+
+<p>lista de animais</p>
+<ul>
+  <li *ngFor="let animal of animais">
+    O nome do corninho é: {{ animal.nome }} <br />
+    Sua idade é {{ animal.idade }} anos
+
+    <button (click)="mostraIdade(animal)">
+      Clique pra saber a idade do corno
+    </button>
+  </li>
+  <p>{{ idadeAnimal }}</p>
+</ul>
